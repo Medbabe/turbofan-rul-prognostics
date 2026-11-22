@@ -1,0 +1,30 @@
+{
+  "frozen_hash": "343de1abfd4db411",
+  "frozen": {
+    "B0": [
+      "PopulationPrior",
+      {}
+    ],
+    "B1": [
+      "HIBaseline",
+      {
+        "W": 30,
+        "r_max": 100,
+        "intervals": "conformal"
+      }
+    ],
+    "M1": [
+      "GBMQuantile",
+      {
+        "cap": 125,
+        "sensors": "all",
+        "features": "full",
+        "intervals": "cqr"
+      }
+    ]
+  },
+  "lead_time": 20,
+  "first_run": "2026-11-22T14:03:07",
+  "git_commit": "22b03a0",
+  "note": "Original commit id (before publication). The published Git history was squashed into a single commit on 2026-11-22; the code that ran this evaluation is unchanged, and frozen_hash and first_run are the original values."
+}
